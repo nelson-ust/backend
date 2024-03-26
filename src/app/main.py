@@ -27,17 +27,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
 from fastapi.middleware.trustedhost import TrustedHostMiddleware
-from routes import (
-    tenancy_routes,
-    srt_routes,
-    role_routes,
-    department_routes,
-    workplantype_routes,
-    location_routes,
-    user_routes,
-    employee_routes, 
-    unit_routes
-)
+from routes import tenancy_routes,srt_routes,role_routes,department_routes, workplantype_routes,location_routes,user_routes,employee_routes,unit_routes
+
 
 import uvicorn
 
